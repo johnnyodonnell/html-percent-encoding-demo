@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML Percent Encoding Demo</title>
+    </head>
+    <body>
+        <h1>HTML Percent Encoding Demo</h1>
+        <form method="post">
+            <label>
+                Input:
+            </label>
+            <br />
+            <input name="input" value="@input" />
+            <br />
+            <br />
+            <label>
+                Text Area:
+            </label>
+            <br />
+            <textarea name="textarea" rows="10" cols="40">@|textarea|</textarea>
+            <br />
+            <br />
+            <input type="submit" value="Submit" />
+        </form>
+        <h2>--- Output ---</h2>
+        <h3>Raw Form Data:</h3>
+        <p>
+            @raw-data
+        </p>
+        <h3>Decoded Data:</h3>
+        <p>
+            @decoded-data
+        </p>
+    </body>
+</html>
+
